@@ -1,0 +1,31 @@
+@import url("http://fonts.cdnfonts.com/css/pixar");
+@import url("fonts/Brandon Grotesque/stylesheet.css");
+@font-face {
+  font-family: "Futura PT Light";
+  src: url("FuturaPT-Light.eot");
+  src: url("FuturaPT-Light.eot?#iefix") format("embedded-opentype"),
+    url("FuturaPT-Light.woff") format("woff"),
+    url("FuturaPT-Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+.navbar-brand {
+  font-weight: lighter;
+  font-family: "Pixar", sans-serif;
+}
+.description {
+  display: flex;
+  text-align: center;
+  margin: 10%;
+  margin-top: 10%;
+}
+img {
+  width: 330px;
+}
+.details h3 {
+  font-family: "Futura PT Light";
+  font-size: 25px;
+}
+.details h1 {
+  font-size: 50px;
+}
