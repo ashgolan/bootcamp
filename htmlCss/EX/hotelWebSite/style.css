@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.background-img {
+  margin: auto;
+  width: 100%;
+}
+
+.nav {
+  list-style-type: none;
+  height: 40px;
+  background-color: black;
+}
+.li-logo {
+  width: 100px;
+}
+.nav li {
+  float: left;
+  padding: 10px;
+}
+.nav li:hover {
+  background-color: rgb(64, 56, 71);
+}
+.nav li a:hover {
+  color: rgb(233, 105, 105);
+}
+
+.side-bar {
+  position: relative;
+  left: 950px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.big-title {
+  position: relative;
+}
+h1,
+p {
+  color: white;
+}
+.title {
+  position: absolute;
+  bottom: 500px;
+  left: 400px;
+  font-size: 70px;
+}
+span {
+  color: rgb(241, 153, 70);
+}
+.free-meals {
+  background-color: rgb(241, 153, 70);
+}
+.p-title {
+  position: absolute;
+  bottom: 450px;
+  left: 200px;
+  font-size: 20px;
+}
+
+.btn1 {
+  position: absolute;
+  bottom: 370px;
+  left: 590px;
+  font-size: 15px;
+  color: white;
+  padding: 15px 10px;
+  cursor: pointer;
+
+  border: none;
+  background-color: rgb(48, 45, 45);
+}
+.container2 {
+  padding: 0;
+
+  height: 447px;
+}
+.details {
+  background-color: rgb(48, 45, 45);
+  height: 100%;
+}
+.photo-1 {
+  float: left;
+  width: 50%;
+  padding-right: 5px;
+  height: 100%;
+}
+
+.history {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.p-history {
+  text-align: center;
+}
+
+.read-more {
+  display: block;
+  font-size: 15px;
+  color: rgb(27, 24, 24);
+  padding: 15px 10px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(247, 238, 238);
+}
+
+i {
+  font-size: 50px;
+}
+
+.bottomPage {
+  float: left;
+  margin: auto;
+  max-width: 33.3%;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.clr {
+  clear: right;
+}
+.p-bottomPage {
+  color: black;
+  padding-top: 20px;
+}
+
+.footer2 {
+  display: inline-block;
+  background-color: rgb(48, 45, 45);
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  color: wheat;
+}
